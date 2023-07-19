@@ -55,7 +55,7 @@ y_train, y_test = data.iloc[train_indices, 1], data.iloc[test_indices,1]
 #     idx = np.random.randint(len(x_train))
 #     y_pred = 1 / (1 + np.exp(-np.dot(x_train[idx], w)))
 #     grad = x_train[idx].reshape(-1, 1) * (y_pred - y_train.iloc[idx])+alpha*np.sign(w)
-    
+
 #     v = beta * v + (1 - beta) * grad
 #     w -= lr * v
 
